@@ -1,0 +1,77 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1776910426
+fireball.gd::GDScript::1985934433488417718::1776905635::0::1::::<>Area2D<><>0<>0<><>::
+fireball.tscn::PackedScene::1215012499703449776::1776905601::0::1::::<><><>0<>0<><>::uid://3kabx1b6esjm::::res://fireball.gd<>uid://buq1wpxnw4fsp::::res://Sprite Pack 5/9 - Wispy Fire/Idle_Flicker_(32 x 32).png
+icon.svg::CompressedTexture2D::5422038050310841941::1776901103::1776901114::1::::<><><>0<>0<>448c65af35b5af53031325c1784a59d7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+level.tscn::PackedScene::8968012214291260844::1776905599::0::1::::<><><>0<>0<><>::uid://sha2l7rqctwb::::res://player.tscn<>uid://rktcwtwbawu7::::res://fireball.tscn
+player.gd::GDScript::6255242891223556209::1776902294::0::1::::<>Area2D<><>0<>0<><>::
+player.tscn::PackedScene::1277898674182911337::1776905635::0::1::::<><><>0<>0<><>::uid://cvec63u3c2210::::res://player.gd<>uid://w3pnecf5qwt3::::res://Sprite Pack 5/1 - Robo Retro/Hurt_(32 x 32).png
+::res://Sprite Pack 5/::1776901197
+LICENSE.txt::TextFile::-1::1776901197::0::1::::<><><>0<>0<><>::
+::res://Sprite Pack 5/1 - Robo Retro/::1776901198
+Flight_Ending_(32 x 32).png::CompressedTexture2D::6343452901727370016::1776901197::1776901198::1::::<><><>0<>0<>310e12cf7e1c4de657aba9318f72d1e9<>res://.godot/imported/Flight_Ending_(32 x 32).png-75d638224e0b878ac88d1cf449e6edcf.ctex::
+Flight_Hurt_(32 x 32).png::CompressedTexture2D::5742108357142193195::1776901197::1776901198::1::::<><><>0<>0<>15ca83684fc4be63672bf879a56c6bf8<>res://.godot/imported/Flight_Hurt_(32 x 32).png-c7e1e76da285a0033f4bec13b28942ed.ctex::
+Flight_Start-up_(32 x 32).png::CompressedTexture2D::6919856933095102175::1776901197::1776901198::1::::<><><>0<>0<>ba768d00fbd4e45f2993c1c04c928d88<>res://.godot/imported/Flight_Start-up_(32 x 32).png-c0a112698ee92e587c11bb82be6dc9ea.ctex::
+Flying_(32 x 32).png::CompressedTexture2D::6438435183000324924::1776901197::1776901198::1::::<><><>0<>0<>7b20d18badfa5a0a27303a6a63432b75<>res://.godot/imported/Flying_(32 x 32).png-12c7bafe324181a81f95a88defbffdf0.ctex::
+Hurt_(32 x 32).png::CompressedTexture2D::1602891320813578362::1776901197::1776901198::1::::<><><>0<>0<>71658380cd416ba47ea8e0f9b6be5922<>res://.godot/imported/Hurt_(32 x 32).png-dcd56c0fff2c56199a4da44e7e8c90a9.ctex::
+Idle_(32 x 32).png::CompressedTexture2D::4008832827332269796::1776901197::1776901198::1::::<><><>0<>0<>7756a2fe43d4ae3ca20177e7d1aeccc0<>res://.godot/imported/Idle_(32 x 32).png-c4d90d42407367cd3bd34b2385d16ebf.ctex::
+Pilot_Front-facing_(32 x 32).png::CompressedTexture2D::8561189983911664639::1776901197::1776901198::1::::<><><>0<>0<>da49ed3c62b40037722190cd611e5723<>res://.godot/imported/Pilot_Front-facing_(32 x 32).png-028be81a7d2f8b90bcb68379d449451a.ctex::
+Pilot_Hurt_(32 x 32).png::CompressedTexture2D::6219350390762449760::1776901197::1776901198::1::::<><><>0<>0<>d29c8aeb57bd471e0cf244fccd40246d<>res://.godot/imported/Pilot_Hurt_(32 x 32).png-b366611605220f7f16e19f89b3af5ae1.ctex::
+Pilot_Idle_(32 x 32).png::CompressedTexture2D::3717440041420115917::1776901197::1776901198::1::::<><><>0<>0<>31fbade30046ff96e3071ae1bace6e3d<>res://.godot/imported/Pilot_Idle_(32 x 32).png-be9903b3140edd68592be9797b2ace64.ctex::
+Pilot_Running_(32 x 32).png::CompressedTexture2D::2274918355085395232::1776901197::1776901198::1::::<><><>0<>0<>3315861372bc335f3a0df0362c9a43e5<>res://.godot/imported/Pilot_Running_(32 x 32).png-cd0e7efcb744581b429385226b814cc4.ctex::
+Pilot_Suiting-up_(32 x 32).png::CompressedTexture2D::6897269334186690631::1776901197::1776901198::1::::<><><>0<>0<>5285112d68efd76c82c7c7560cfa8a27<>res://.godot/imported/Pilot_Suiting-up_(32 x 32).png-12e3ebfb0696c3e9ad1ef1ff5ea1f758.ctex::
+Spin-attack_(32 x 32).png::CompressedTexture2D::4576901966132217364::1776901197::1776901198::1::::<><><>0<>0<>c086e8a9772b4419c7eb12c57c1a0685<>res://.godot/imported/Spin-attack_(32 x 32).png-a1889408e38807b7ccc546e4957eb84d.ctex::
+Walking_(32 x 32).png::CompressedTexture2D::3476358736621072474::1776901197::1776901198::1::::<><><>0<>0<>d0c7d0f59553d9f16f9b94a2ca84ebcc<>res://.godot/imported/Walking_(32 x 32).png-610b6812d595c739754836f85ba2256e.ctex::
+::res://Sprite Pack 5/2 - Lil Wiz/::1776901198
+Casting_Spell_(32 x 32).png::CompressedTexture2D::652053361288518232::1776901197::1776901198::1::::<><><>0<>0<>bd00bca12cf2bcf407f4530f57d036ea<>res://.godot/imported/Casting_Spell_(32 x 32).png-0d66d342d67562f404e22aef888d3f2a.ctex::
+Casting_Spell_Aerial_(32 x 32).png::CompressedTexture2D::8818695453168970030::1776901197::1776901198::1::::<><><>0<>0<>ecaef87ee31f6428f72cdc759bd646c3<>res://.godot/imported/Casting_Spell_Aerial_(32 x 32).png-2d915fd1dec3c7506f280b29ff21a0be.ctex::
+Casting_Spell_Repeating_(32 x 32).png::CompressedTexture2D::4363754351765298780::1776901197::1776901198::1::::<><><>0<>0<>64ef620c59c7f257fe534001c9ce2e82<>res://.godot/imported/Casting_Spell_Repeating_(32 x 32).png-95cce413db1babc338f2008bfc9464b4.ctex::
+Ducking_(32 x 32).png::CompressedTexture2D::4035775571489549910::1776901197::1776901198::1::::<><><>0<>0<>4bdd8ed48d79d152931dec90d80001db<>res://.godot/imported/Ducking_(32 x 32).png-60820e1adb95c61ecc5573b1b36ea6d1.ctex::
+Falling_(32 x 32).png::CompressedTexture2D::8889610050846453217::1776901197::1776901198::1::::<><><>0<>0<>1e655d3a146a34531a93b5410db0d263<>res://.godot/imported/Falling_(32 x 32).png-aa872d13af92cb3f590935bcce42f6c3.ctex::
+Ground_Recovery_(32 x 32).png::CompressedTexture2D::6222778426560362008::1776901197::1776901198::1::::<><><>0<>0<>ec061b64d4f1786fe93aea29e18e866c<>res://.godot/imported/Ground_Recovery_(32 x 32).png-26cbf33a4eca878954bfc93fbc19e092.ctex::
+Hurt_(32 x 32).png::CompressedTexture2D::450560448088261821::1776901197::1776901198::1::::<><><>0<>0<>77370e96e72ccb8ac6475d40f3387f4c<>res://.godot/imported/Hurt_(32 x 32).png-77d4907869ebd2a885a5c2bcb42dad0c.ctex::
+Idle_(32 x 32).png::CompressedTexture2D::4226462128119722028::1776901197::1776901198::1::::<><><>0<>0<>a09d0e7c829ed41ecb35f190082af198<>res://.godot/imported/Idle_(32 x 32).png-5a94cb751af6f50f6a4aec9158b3ae45.ctex::
+Jumping_(32 x 32).png::CompressedTexture2D::9133037834191599606::1776901197::1776901198::1::::<><><>0<>0<>6b3e36fe824af32cb4a7d2f483cb6d05<>res://.godot/imported/Jumping_(32 x 32).png-46854003d775b21bde87aadd0cbb4f91.ctex::
+Magical_Orbs_Spell_(32 x 32).png::CompressedTexture2D::918032827011852773::1776901197::1776901198::1::::<><><>0<>0<>9eca8b071e14813c3399ae4597cd6ac8<>res://.godot/imported/Magical_Orbs_Spell_(32 x 32).png-b65e87d4a1a193489f57848e2c622a8c.ctex::
+Running_(32 x 32).png::CompressedTexture2D::8230941771598176941::1776901197::1776901198::1::::<><><>0<>0<>e12d52f59127ce8aba821151c17c8057<>res://.godot/imported/Running_(32 x 32).png-f304650f4b310d1c0184ead8cb69fe21.ctex::
+Sparkles_(8 x 8).png::CompressedTexture2D::3518154239634672740::1776901197::1776901198::1::::<><><>0<>0<>7c0b715f951d25c38f6c83918b6b95c3<>res://.godot/imported/Sparkles_(8 x 8).png-7b76ca41b29eb610184ffb8c0cb010d0.ctex::
+::res://Sprite Pack 5/3 - Big Red/::1776901198
+Blocking_(32 x 32).png::CompressedTexture2D::23013045594166410::1776901197::1776901198::1::::<><><>0<>0<>40665f1ad247fa5a7f68ae1d8fb592f5<>res://.godot/imported/Blocking_(32 x 32).png-01c70f4fe37067e9284fa600837d5758.ctex::
+Facing_Player_(32 x 32).png::CompressedTexture2D::362755975906293491::1776901197::1776901198::1::::<><><>0<>0<>2255f677be6c59393593ea7663373141<>res://.godot/imported/Facing_Player_(32 x 32).png-81114d429bf29f53c1fc4f507c14955a.ctex::
+Hurt_(32 x 32).png::CompressedTexture2D::3550582722522575756::1776901197::1776901198::1::::<><><>0<>0<>9def7f75d87a50e5545061b952fc16e2<>res://.godot/imported/Hurt_(32 x 32).png-d54e33be5a5a6953d6eae13cbb2b593e.ctex::
+Idle_(32 x 32).png::CompressedTexture2D::8703152358226366516::1776901197::1776901198::1::::<><><>0<>0<>6d27d42d8ef0bf051704ce8a1d3d44ba<>res://.godot/imported/Idle_(32 x 32).png-a9768db86d356f04ff7e9119ee06dc04.ctex::
+Jumping_&_Falling_(32 x 32).png::CompressedTexture2D::952629943542629663::1776901197::1776901198::1::::<><><>0<>0<>ce05dfe685b136d7e418720f4c2d0a45<>res://.godot/imported/Jumping_&_Falling_(32 x 32).png-5715ca67cff03bfdd5623bffe4f9b63b.ctex::
+Landed_(32 x 32).png::CompressedTexture2D::4403234661488455353::1776901197::1776901198::1::::<><><>0<>0<>58d84636762228e9e67c54dafabc63a6<>res://.godot/imported/Landed_(32 x 32).png-a10e08eeb718e543eb622ebafc5a580f.ctex::
+Punching_(48 x 32).png::CompressedTexture2D::1222371968997619152::1776901197::1776901198::1::::<><><>0<>0<>76ae2f5c508b92c86b1063d05103c35f<>res://.godot/imported/Punching_(48 x 32).png-c38fdb4da10bdd28a942204f3219b18a.ctex::
+Running_(32 x 32).png::CompressedTexture2D::2197990944677960640::1776901197::1776901198::1::::<><><>0<>0<>c3861c73b8ce98d5b64ac59c34aab8e8<>res://.godot/imported/Running_(32 x 32).png-ac48bbc67824ed3ce7bd4eac2632204e.ctex::
+Super_Punch_(64 x 32).png::CompressedTexture2D::7040214556642540575::1776901197::1776901198::1::::<><><>0<>0<>19eed65c17519c78281416882e8ea81d<>res://.godot/imported/Super_Punch_(64 x 32).png-29ddf6794b3293d592af51c3e640b077.ctex::
+::res://Sprite Pack 5/4 - Squirmy Wormy/::1776901198
+Hurt_(32 x 32).png::CompressedTexture2D::7069565874499204744::1776901197::1776901198::1::::<><><>0<>0<>65978b1b2b6db49b124ac8b645a0625c<>res://.godot/imported/Hurt_(32 x 32).png-19a191d3f834b726ea7708af7b578d62.ctex::
+Movement_(32 x 32).png::CompressedTexture2D::1305041618374093000::1776901197::1776901198::1::::<><><>0<>0<>d037cf1f54f4a74f68f0c0b6c42c1323<>res://.godot/imported/Movement_(32 x 32).png-c8c9e75536b31e897b3802b6ec894db6.ctex::
+::res://Sprite Pack 5/5 - Moe Scotty/::1776901198
+Flying_(32 x 32).png::CompressedTexture2D::8852512601407529241::1776901197::1776901198::1::::<><><>0<>0<>df0e2119b7c28883c4b7543d892e2bc4<>res://.godot/imported/Flying_(32 x 32).png-520215ad30b7cd65e6833cca6c9ed103.ctex::
+Hurt_(32 x 32).png::CompressedTexture2D::693113717650478606::1776901197::1776901198::1::::<><><>0<>0<>391bda3f4f31d114e01e305729d9f5b3<>res://.godot/imported/Hurt_(32 x 32).png-ac62f98fae8a3ef2673c3f8b309c4f69.ctex::
+Sting_Attack_(32 x 32).png::CompressedTexture2D::8876397786727705700::1776901197::1776901198::1::::<><><>0<>0<>33a314a51c660a4bf08a51272e0a3ae4<>res://.godot/imported/Sting_Attack_(32 x 32).png-ce859132273cc0c9bcdfe5e3789390a3.ctex::
+::res://Sprite Pack 5/6 - Mr. Chomps/::1776901198
+Crawling_(32 x 32).png::CompressedTexture2D::1579369482844469943::1776901197::1776901198::1::::<><><>0<>0<>556b0861bdebc030d6f58ca9872e21f8<>res://.godot/imported/Crawling_(32 x 32).png-652dbd18923fe59a28fb305ec4234cc2.ctex::
+Crawl_&_Blink_(32 x 32).png::CompressedTexture2D::3581222691149791521::1776901197::1776901198::1::::<><><>0<>0<>97fb9bf6c0d04058841c11618323bca3<>res://.godot/imported/Crawl_&_Blink_(32 x 32).png-4ed0ba701754f43cd744deca55f2e8fd.ctex::
+Crawl_&_Chomp_(32 x 32).png::CompressedTexture2D::1356535373276044452::1776901197::1776901198::1::::<><><>0<>0<>6593ec283ad33cc7a25d38daa9950883<>res://.godot/imported/Crawl_&_Chomp_(32 x 32).png-10213aac18064442b544a9431686b22d.ctex::
+Eye_Blink_(Replace last frame on Crawling)_(32 x 32).png::CompressedTexture2D::8447279136717229429::1776901197::1776901198::1::::<><><>0<>0<>688f237d8541e389c5b1c2b5997c5f4e<>res://.godot/imported/Eye_Blink_(Replace last frame on Crawling)_(32 x 32).png-2262201c883e0df6f83b6056a63d9be9.ctex::
+Hurt_(32 x 32).png::CompressedTexture2D::4124281527129003140::1776901197::1776901198::1::::<><><>0<>0<>2aed3569d08c296ed69de0b3caa125df<>res://.godot/imported/Hurt_(32 x 32).png-aba4e93fcca55a7946078c2d34bee946.ctex::
+::res://Sprite Pack 5/7 - Grizzly/::1776901198
+Attack_(48 x 32).png::CompressedTexture2D::2676903054906217792::1776901197::1776901198::1::::<><><>0<>0<>efb30f83f3c4febcd5d050768b315294<>res://.godot/imported/Attack_(48 x 32).png-d81b1e8fa16499ab846f83628b110aa9.ctex::
+Idle_(48 x 32).png::CompressedTexture2D::6992137094578575168::1776901197::1776901198::1::::<><><>0<>0<>a0f5c1cb73d458958dfa2fe54a36a32d<>res://.godot/imported/Idle_(48 x 32).png-bf113fdaafb011a0a9aaadea290855e4.ctex::
+Sleeping_&_Wakeup_(48 x 32).png::CompressedTexture2D::3697419395297623484::1776901197::1776901198::1::::<><><>0<>0<>4d6c35f16193d77fd859187613e8f36f<>res://.godot/imported/Sleeping_&_Wakeup_(48 x 32).png-0e54586bbf67e67c92d9c57c6de31fb4.ctex::
+Walking_(48 x 32).png::CompressedTexture2D::2711611048220254549::1776901197::1776901198::1::::<><><>0<>0<>7e8b43ad5f10cf6dec800c3b03c00ddb<>res://.godot/imported/Walking_(48 x 32).png-a3320a94a87093a6f94c3773acc27b36.ctex::
+::res://Sprite Pack 5/8 - Orc/::1776901198
+Blink_(Replace last frame on Walking)_(64 x 32).png::CompressedTexture2D::6480792474330110023::1776901197::1776901198::1::::<><><>0<>0<>d708ca820e3b781659d5b20c6c432b19<>res://.godot/imported/Blink_(Replace last frame on Walking)_(64 x 32).png-3e4b26a27359415b148c2c34bc04cdb1.ctex::
+Falling_(64 x 32).png::CompressedTexture2D::5488710475019069181::1776901197::1776901198::1::::<><><>0<>0<>a898415a82595101b41c888d8241337c<>res://.godot/imported/Falling_(64 x 32).png-12b9957e08339fe37f1fb53606c77e32.ctex::
+Hurt_(64 x 32).png::CompressedTexture2D::114223127704241156::1776901197::1776901198::1::::<><><>0<>0<>c770e6ab2135080bda75c5cfcb23e62b<>res://.godot/imported/Hurt_(64 x 32).png-b81b722bd02aa9b2cf65e05220538cc0.ctex::
+Idle_(64 x 32).png::CompressedTexture2D::1659661224700236056::1776901197::1776901198::1::::<><><>0<>0<>8e00a5c6bbb4168de5b341c73b18c47b<>res://.godot/imported/Idle_(64 x 32).png-ad11fe0e723598cc96c28f4d9cb90b7c.ctex::
+Spear_Jab_(64 x 32).png::CompressedTexture2D::2643150983105980918::1776901197::1776901198::1::::<><><>0<>0<>c4de2c87859cef7d6df2e51d8f72e88d<>res://.godot/imported/Spear_Jab_(64 x 32).png-3c4227641d4a9079aaea78b57d705172.ctex::
+Walking_&_Blink_(64 x 32).png::CompressedTexture2D::314403195173076184::1776901197::1776901198::1::::<><><>0<>0<>0c4ba4983f250044bbd4801c765eaa01<>res://.godot/imported/Walking_&_Blink_(64 x 32).png-e793da4a082d5aa71385ad081955e5fc.ctex::
+Walking_(64 x 32).png::CompressedTexture2D::8064509492369837121::1776901197::1776901198::1::::<><><>0<>0<>bce71547c2bd55a65b15d823cfa2985c<>res://.godot/imported/Walking_(64 x 32).png-442d8568ae55d667ed9ec2e96c8f4a91.ctex::
+::res://Sprite Pack 5/9 - Wispy Fire/::1776901198
+Death_(32 x 32).png::CompressedTexture2D::8138325430409972581::1776901197::1776901198::1::::<><><>0<>0<>35a8e496a99e0c47bacce30012dda748<>res://.godot/imported/Death_(32 x 32).png-f0b230de4ff6738c5223958077b984d0.ctex::
+Idle_Flicker_(32 x 32).png::CompressedTexture2D::3824846353798500783::1776901197::1776901198::1::::<><><>0<>0<>f651c219676a7edfae5938cf3488ccf3<>res://.godot/imported/Idle_Flicker_(32 x 32).png-f6136a8358d4c802741fd68ba373c20f.ctex::
+Weak_Flicker_(32 x 32).png::CompressedTexture2D::2367277915197098748::1776901197::1776901198::1::::<><><>0<>0<>6a9246c22a7b7f066f08c5a9b1368a30<>res://.godot/imported/Weak_Flicker_(32 x 32).png-32840326b2315e125ae28f858f3adb20.ctex::
