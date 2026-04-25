@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://h708p2wjtnm2"]
+
+[ext_resource type="FontFile" uid="uid://kheq8i1uh30o" path="res://brackeys_platformer_assets/fonts/PixelOperator8.ttf" id="1_37p78"]
+[ext_resource type="Script" uid="uid://b4xvu80gx3vgi" path="res://hud.gd" id="1_64ctp"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_64ctp"]
+font = ExtResource("1_37p78")
+font_size = 20
+
+[node name="Hud" type="CanvasLayer" unique_id=1360983997]
+script = ExtResource("1_64ctp")
+
+[node name="Label" type="Label" parent="." unique_id=955227804]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "score: 00000"
+label_settings = SubResource("LabelSettings_64ctp")

@@ -1,0 +1,8 @@
+res://enemy.gd
+res://enemy.tscn
+res://level.tscn
+res://player.tscn
+res://player.gd
+res://goal.tscn
+res://goal.gd
+res://level_2.tscn

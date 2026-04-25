@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://dnufpl2vgi4ur"]
+
+[ext_resource type="Script" uid="uid://joj0ggs23px6" path="res://goal.gd" id="1_0qle8"]
+[ext_resource type="Texture2D" uid="uid://b01ydmpcq331s" path="res://brackeys_platformer_assets/sprites/world_tileset.png" id="1_6k3qi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0qle8"]
+atlas = ExtResource("1_6k3qi")
+region = Rect2(128, 48, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_p20yd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0qle8")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gcynx"]
+radius = 8.0
+
+[node name="Goal" type="Area2D" unique_id=323650231]
+script = ExtResource("1_0qle8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1147592600]
+sprite_frames = SubResource("SpriteFrames_p20yd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=170438327]
+shape = SubResource("CircleShape2D_gcynx")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
