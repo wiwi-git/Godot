@@ -147,6 +147,7 @@ size = Vector2(12, 14)
 
 [node name="Player" type="CharacterBody2D" unique_id=1622266791 groups=["player"]]
 script = ExtResource("1_onrkg")
+jump_sound = ExtResource("4_hqtel")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2032832671]
 sprite_frames = SubResource("SpriteFrames_2hs0m")
@@ -159,6 +160,3 @@ position = Vector2(0, 4)
 shape = SubResource("RectangleShape2D_i3pqv")
 
 [node name="Hud" parent="." unique_id=1360983997 instance=ExtResource("3_i3pqv")]
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1872784301]
-stream = ExtResource("4_hqtel")

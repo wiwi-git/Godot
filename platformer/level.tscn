@@ -1,7 +1,8 @@
 [gd_scene format=4 uid="uid://dny041yug0knc"]
 
-[ext_resource type="AudioStream" uid="uid://8itd0i7wkk5n" path="res://brackeys_platformer_assets/music/time_for_adventure.mp3" id="1_n6hdu"]
+[ext_resource type="Script" uid="uid://bt0eyxhaymg7a" path="res://level.gd" id="1_n6hdu"]
 [ext_resource type="Texture2D" uid="uid://b01ydmpcq331s" path="res://brackeys_platformer_assets/sprites/world_tileset.png" id="1_vonw3"]
+[ext_resource type="AudioStream" uid="uid://8itd0i7wkk5n" path="res://brackeys_platformer_assets/music/time_for_adventure.mp3" id="2_km5ld"]
 [ext_resource type="PackedScene" uid="uid://wkcam2kuolhf" path="res://player.tscn" id="2_oi3di"]
 [ext_resource type="PackedScene" uid="uid://cd3j6rqpwwdnq" path="res://item.tscn" id="3_oi3di"]
 [ext_resource type="PackedScene" uid="uid://b4aos15124upa" path="res://enemy.tscn" id="4_0b4ue"]
@@ -162,10 +163,8 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_0b4ue")
 
 [node name="Level" type="Node2D" unique_id=108453515]
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=591083361]
-stream = ExtResource("1_n6hdu")
-autoplay = true
+script = ExtResource("1_n6hdu")
+bgm = ExtResource("2_km5ld")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=2036243241]
 position = Vector2(-15, 1)

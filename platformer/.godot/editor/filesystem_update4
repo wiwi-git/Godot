@@ -1,8 +1,9 @@
-res://enemy.gd
-res://enemy.tscn
+res://default_bus_layout.tres
 res://level.tscn
+res://sound_manager.gd
+res://goal.tscn
 res://player.tscn
 res://player.gd
-res://goal.tscn
-res://goal.gd
-res://level_2.tscn
+res://level.gd
+res://item.tscn
+res://item.gd

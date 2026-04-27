@@ -1,13 +1,19 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1777090524
+::res://::1777243162
+character_body_2d.gd::GDScript::4809672619263588493::1777142214::0::1::::<>CharacterBody2D<><>0<>0<><>::
+enemy.gd::GDScript::1198710831379167741::1777103151::0::1::::<>CharacterBody2D<><>0<>0<><>::
+enemy.tscn::PackedScene::4422780744554860582::1777103151::0::1::::<><><>0<>0<><>::uid://rcwuewe8pigj::::res://enemy.gd<>uid://bsi6f7812x4xs::::res://brackeys_platformer_assets/sprites/slime_green.png
+goal.gd::GDScript::661192304345613625::1777135099::0::1::::<>Area2D<><>0<>0<><>::
+goal.tscn::PackedScene::8113335565756406829::1777135099::0::1::::<><><>0<>0<><>::uid://joj0ggs23px6::::res://goal.gd<>uid://b01ydmpcq331s::::res://brackeys_platformer_assets/sprites/world_tileset.png
 hud.gd::GDScript::4470690382460747128::1777003968::0::1::::<>CanvasLayer<><>0<>0<><>::
 hud.tscn::PackedScene::558959680186502671::1777004046::0::1::::<><><>0<>0<><>::uid://kheq8i1uh30o::::res://brackeys_platformer_assets/fonts/PixelOperator8.ttf<>uid://b4xvu80gx3vgi::::res://hud.gd
 icon.svg::CompressedTexture2D::4817894111877080472::1776989542::1776989544::1::::<><><>0<>0<>d089b273879588d6d4092fc8ee3b874f<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 item.gd::GDScript::1728539185064598044::1777003556::0::1::::<>Area2D<><>0<>0<><>::
 item.tscn::PackedScene::5041813206285545414::1777003573::0::1::::<><><>0<>0<><>::uid://yvk110cv6gfs::::res://item.gd<>uid://b1lj82j6nx5mh::::res://brackeys_platformer_assets/sprites/fruit.png
-level.tscn::PackedScene::8122833200913693196::1777003575::0::1::::<><><>0<>0<><>::uid://b01ydmpcq331s::::res://brackeys_platformer_assets/sprites/world_tileset.png<>uid://wkcam2kuolhf::::res://player.tscn<>uid://cd3j6rqpwwdnq::::res://item.tscn
-player.gd::GDScript::8302848962352482301::1777004055::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::1564920444034408271::1777004055::0::1::::<><><>0<>0<><>::uid://deaxvtdhgm63u::::res://brackeys_platformer_assets/sprites/knight.png<>uid://dqj7yeah8iol6::::res://player.gd<>uid://h708p2wjtnm2::::res://hud.tscn
+level.tscn::PackedScene::8122833200913693196::1777145708::0::1::::<><><>0<>0<><>::uid://8itd0i7wkk5n::::res://brackeys_platformer_assets/music/time_for_adventure.mp3<>uid://b01ydmpcq331s::::res://brackeys_platformer_assets/sprites/world_tileset.png<>uid://wkcam2kuolhf::::res://player.tscn<>uid://cd3j6rqpwwdnq::::res://item.tscn<>uid://b4aos15124upa::::res://enemy.tscn<>uid://dnufpl2vgi4ur::::res://goal.tscn<>uid://dl53ebb6jq42k::::res://level_2.tscn
+level_2.tscn::PackedScene::7994977938181876292::1777142254::0::1::::<><><>0<>0<><>::uid://b01ydmpcq331s::::res://brackeys_platformer_assets/sprites/world_tileset.png<>uid://wkcam2kuolhf::::res://player.tscn
+player.gd::GDScript::8302848962352482301::1777170491::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::1564920444034408271::1777170491::0::1::::<><><>0<>0<><>::uid://deaxvtdhgm63u::::res://brackeys_platformer_assets/sprites/knight.png<>uid://dqj7yeah8iol6::::res://player.gd<>uid://h708p2wjtnm2::::res://hud.tscn<>uid://btucqpw8e0e5g::::res://brackeys_platformer_assets/sounds/jump.wav
 ::res://brackeys_platformer_assets/::1776989673
 LICENSE & CREDITS.txt::TextFile::-1::1776989673::0::1::::<><><>0<>0<><>::
 ::res://brackeys_platformer_assets/fonts/::1776989674
