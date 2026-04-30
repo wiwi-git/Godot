@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://b4v1yrvnemnep"]
+
+[ext_resource type="Script" uid="uid://b35x2rsjwwk2w" path="res://hitbox.gd" id="1_v7oki"]
+[ext_resource type="Texture2D" uid="uid://cgo7qwefpvn7c" path="res://icon.svg" id="1_v8qja"]
+[ext_resource type="Script" uid="uid://8ijekoimq45" path="res://bullet.gd" id="2_t4vbm"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_v8qja"]
+radius = 63.737743
+
+[node name="Bullet" type="Sprite2D" unique_id=341904962]
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("1_v8qja")
+script = ExtResource("2_t4vbm")
+
+[node name="Hitbox" type="Area2D" parent="." unique_id=126576984]
+script = ExtResource("1_v7oki")
+team = &"enemy"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox" unique_id=1374229626]
+shape = SubResource("CircleShape2D_v8qja")
+
+[node name="Timer" type="Timer" parent="." unique_id=969546219]
+wait_time = 5.0
+autostart = true
+
+[connection signal="area_entered" from="Hitbox" to="Hitbox" method="_on_area_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

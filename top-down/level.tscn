@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://cqvdum1f5wjj6"]
+
+[ext_resource type="PackedScene" uid="uid://bkdcxmyjc8vwi" path="res://player.tscn" id="1_vonw3"]
+[ext_resource type="PackedScene" uid="uid://doslup57xrjea" path="res://enemy.tscn" id="2_oi3di"]
+[ext_resource type="PackedScene" uid="uid://ckhlimh3fjv7t" path="res://shoot_enemy.tscn" id="3_oi3di"]
+
+[node name="Level" type="Node2D" unique_id=2146557160]
+
+[node name="Player" parent="." unique_id=1072759538 instance=ExtResource("1_vonw3")]
+position = Vector2(-1, 60)
+
+[node name="Camera2D" type="Camera2D" parent="Player" unique_id=265149110]
+zoom = Vector2(5, 5)
+
+[node name="Enemy" parent="." unique_id=1403220239 instance=ExtResource("2_oi3di")]
+position = Vector2(-24, -13)
+
+[node name="Enemy3" parent="." unique_id=1994379169 instance=ExtResource("2_oi3di")]
+position = Vector2(78, 122)
+
+[node name="Enemy2" parent="." unique_id=674219265 instance=ExtResource("2_oi3di")]
+position = Vector2(31, -10)
+
+[node name="ShootEnemy" parent="." unique_id=263144912 instance=ExtResource("3_oi3di")]
+position = Vector2(-80, 18)
