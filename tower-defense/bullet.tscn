@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dlo7pv48xqef5"]
+
+[ext_resource type="Texture2D" uid="uid://d38c31und5qq6" path="res://Sprout Lands - Sprites - Basic pack/Objects/Basic_Plants.png" id="1_v7oki"]
+[ext_resource type="Script" uid="uid://bv8a23nsmhr8i" path="res://bullet.gd" id="1_v8qja"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v8qja"]
+size = Vector2(3, 3)
+
+[node name="Bullet" type="Area2D" unique_id=2040487621]
+script = ExtResource("1_v8qja")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1360637047]
+texture = ExtResource("1_v7oki")
+region_enabled = true
+region_rect = Rect2(83.07866, 10.016193, 3.0111847, 3.0605469)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=746696651]
+shape = SubResource("RectangleShape2D_v8qja")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
