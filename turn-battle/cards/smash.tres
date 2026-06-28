@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Card" format=3 uid="uid://cb8lqsbi2q27r"]
+
+[ext_resource type="Script" uid="uid://dcswtjgf83xmk" path="res://card.gd" id="1_e28sw"]
+
+[resource]
+script = ExtResource("1_e28sw")
+card_name = "강타"
+cost = 2
+damage = 15
+description = "적에게 강한 피해를 입힌다."
+metadata/_custom_type_script = "uid://dcswtjgf83xmk"

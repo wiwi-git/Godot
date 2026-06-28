@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Card" format=3 uid="uid://d3tp1kxfra0wi"]
+
+[ext_resource type="Script" uid="uid://dcswtjgf83xmk" path="res://card.gd" id="1_ravix"]
+
+[resource]
+script = ExtResource("1_ravix")
+card_name = "소회복"
+cost = 2
+heal = 20
+description = "hp 20 회복"
+metadata/_custom_type_script = "uid://dcswtjgf83xmk"

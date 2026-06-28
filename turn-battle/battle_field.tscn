@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://b0cbxo2b85ac"]
+
+[ext_resource type="Script" uid="uid://bmkxaifnpqx6h" path="res://battle_field.gd" id="1_jgmvv"]
+[ext_resource type="PackedScene" uid="uid://5m43wd102vuk" path="res://unit.tscn" id="1_vim3v"]
+[ext_resource type="PackedScene" uid="uid://epenvr35v2ly" path="res://card_ui.tscn" id="2_brqjc"]
+[ext_resource type="Script" uid="uid://dcswtjgf83xmk" path="res://card.gd" id="2_uv03f"]
+[ext_resource type="Resource" uid="uid://b63r4u33h0flh" path="res://cards/slash.tres" id="3_owq8t"]
+[ext_resource type="Resource" uid="uid://cb8lqsbi2q27r" path="res://cards/smash.tres" id="4_7mpp6"]
+[ext_resource type="Resource" uid="uid://d3tp1kxfra0wi" path="res://cards/small_heal.tres" id="5_s11ij"]
+
+[node name="BattleField" type="Node2D" unique_id=86709327 node_paths=PackedStringArray("player", "enemy", "info_label", "card_container", "pass_button")]
+script = ExtResource("1_jgmvv")
+player = NodePath("Player")
+enemy = NodePath("Enemy")
+info_label = NodePath("Label")
+card_container = NodePath("HBoxContainer")
+pass_button = NodePath("PassButton")
+deck = Array[ExtResource("2_uv03f")]([ExtResource("3_owq8t"), ExtResource("4_7mpp6"), ExtResource("5_s11ij")])
+card_ui_scene = ExtResource("2_brqjc")
+
+[node name="Label" type="Label" parent="." unique_id=3825918]
+offset_left = -121.0
+offset_top = -168.0
+offset_right = 121.0
+offset_bottom = -119.0
+text = "MESSAGE
+"
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=602781048]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -384.0
+offset_top = 135.0
+offset_right = 383.0
+offset_bottom = 215.0
+grow_horizontal = 2
+grow_vertical = 0
+alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Player" parent="." unique_id=4207328 groups=["player"] instance=ExtResource("1_vim3v")]
+position = Vector2(-205, -6)
+
+[node name="Enemy" parent="." unique_id=1477005283 groups=["enemy"] instance=ExtResource("1_vim3v")]
+position = Vector2(232, -4)
+unit_name = "Enemy"
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1767950792]
+zoom = Vector2(1.5, 1.5)
+
+[node name="CostLabel" type="Label" parent="." unique_id=73244436]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="PassButton" type="Button" parent="." unique_id=1650003341]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -21.5
+offset_top = -15.5
+offset_right = 21.5
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "pass"
+
+[connection signal="pressed" from="PassButton" to="." method="_on_pass_button_pressed"]

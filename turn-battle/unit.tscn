@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://5m43wd102vuk"]
+
+[ext_resource type="Texture2D" uid="uid://doh4niija4t1r" path="res://FreeKnight_v1/Comparison2x.png" id="1_btf8p"]
+[ext_resource type="Script" uid="uid://d3ih6xhbkjv7w" path="res://unit.gd" id="1_ctwoc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ctwoc"]
+atlas = ExtResource("1_btf8p")
+region = Rect2(120, 80, 120, 80)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_davkp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ctwoc")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Unit" type="Node2D" unique_id=4207328]
+script = ExtResource("1_ctwoc")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2029312093]
+sprite_frames = SubResource("SpriteFrames_davkp")
+animation = &"idle"
+frame_progress = 0.23987232
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=1222744023]
+offset_left = -61.0
+offset_top = 44.0
+offset_right = 60.0
+offset_bottom = 71.0
+
+[node name="Label" type="Label" parent="." unique_id=1937922137]
+offset_left = -59.0
+offset_top = 75.0
+offset_right = 60.0
+offset_bottom = 124.0
+text = "Unit
+"
+horizontal_alignment = 1
+
+[node name="CostLabel" type="Label" parent="." unique_id=171087987]
+offset_left = -59.0
+offset_top = -64.0
+offset_right = 58.0
+offset_bottom = -41.0
+text = "cost "
+horizontal_alignment = 1

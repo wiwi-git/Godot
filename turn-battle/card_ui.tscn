@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://epenvr35v2ly"]
+
+[ext_resource type="Script" uid="uid://du1qj0i6atqia" path="res://card_ui.gd" id="1_gf2xd"]
+
+[node name="CardUI" type="Button" unique_id=1909482720]
+offset_right = 8.0
+offset_bottom = 8.0
+script = ExtResource("1_gf2xd")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
