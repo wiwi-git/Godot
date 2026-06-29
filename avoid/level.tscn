@@ -11,11 +11,11 @@ fireball_scene = ExtResource("2_vonw3")
 [node name="Player" parent="." unique_id=1125864739 instance=ExtResource("1_u52ul")]
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=747116900]
-zoom = Vector2(2, 1)
-limit_left = -500
-limit_top = -500
-limit_right = 500
-limit_bottom = 500
+zoom = Vector2(5, 3)
+limit_left = -188
+limit_top = -188
+limit_right = 172
+limit_bottom = 35
 
 [node name="Fireball" parent="." unique_id=445843442 instance=ExtResource("2_vonw3")]
 position = Vector2(1, -101)
